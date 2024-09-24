@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Integraciones rails</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+
+    <link rel="stylesheet" href="/app/assets/css/main.css" />
+	  <noscript><link rel="stylesheet" href="/app/assets/css/noscript.css" /></noscript>
+</head>
+
+  <body>
+    <%= yield%>
+  </body>
+</html>
